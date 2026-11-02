@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-serif: 'Cormorant Garamond', Georgia, Cambria, serif;
+    --font-mono: 'JetBrains Mono', monospace;
+
+    --bg-parchment: #f9f7f2;
+    --bg-cream: #f4efe6;
+    --bg-card: #ffffff;
+    --border-classic: #e4ddd3;
+    --text-primary: #1c221e;
+    --text-muted: #6a6e69;
+    --racing-green: #1b3829;
+    --antique-gold: #b28b48;
+    --deep-burgundy: #59242a;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--bg-parchment);
+    color: var(--text-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, .font-serif-header {
+    font-family: var(--font-serif);
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+  font-family: var(--font-mono), monospace;
+}
+
+/* Custom Old Money Hairline Borders & Shadows */
+.border-classic {
+  border-color: #e4ddd3;
+}
+
+.bg-parchment {
+  background-color: #f9f7f2;
+}
+
+.bg-cream {
+  background-color: #f4efe6;
+}
+
+.text-racing-green {
+  color: #1b3829;
+}
+
+.bg-racing-green {
+  background-color: #1b3829;
+}
+
+.bg-racing-green-dark {
+  background-color: #142a1f;
+}
+
+.border-racing-green {
+  border-color: #1b3829;
+}
+
+.text-antique-gold {
+  color: #b28b48;
+}
+
+.bg-antique-gold {
+  background-color: #b28b48;
+}
+
+.border-antique-gold {
+  border-color: #b28b48;
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix Expense Tracker with Graphs",
+  "description": "Full-stack Expense Tracker featuring dynamic Chart.js analytics, monthly and category charts, custom category management, and MongoDB database storage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,443 @@
+{
+  "monthlyIncome": 75000,
+  "categories": [
+    {
+      "id": "cat_1793537113072_0",
+      "name": "Food & Dining",
+      "color": "#8c533e",
+      "budget": 16000,
+      "icon": "Utensils",
+      "createdAt": "2026-06-01T08:00:00.000Z",
+      "updatedAt": "2026-11-01T08:00:00.000Z"
+    },
+    {
+      "id": "cat_1793537113072_1",
+      "name": "Housing & Estate",
+      "color": "#1f3d2b",
+      "budget": 25000,
+      "icon": "Home",
+      "createdAt": "2026-06-01T08:00:00.000Z",
+      "updatedAt": "2026-11-01T08:00:00.000Z"
+    },
+    {
+      "id": "cat_1793537113072_2",
+      "name": "Travel & Commute",
+      "color": "#374b5c",
+      "budget": 7000,
+      "icon": "Car",
+      "createdAt": "2026-06-01T08:00:00.000Z",
+      "updatedAt": "2026-11-01T08:00:00.000Z"
+    },
+    {
+      "id": "cat_1793537113072_3",
+      "name": "Utilities & Bills",
+      "color": "#6d5c48",
+      "budget": 6000,
+      "icon": "Zap",
+      "createdAt": "2026-06-01T08:00:00.000Z",
+      "updatedAt": "2026-11-01T08:00:00.000Z"
+    },
+    {
+      "id": "cat_1793537113072_4",
+      "name": "Leisure & Culture",
+      "color": "#6b2c37",
+      "budget": 8000,
+      "icon": "Film",
+      "createdAt": "2026-06-01T08:00:00.000Z",
+      "updatedAt": "2026-11-01T08:00:00.000Z"
+    },
+    {
+      "id": "cat_1793537113072_5",
+      "name": "Health & Wellness",
+      "color": "#405a49",
+      "budget": 6000,
+      "icon": "HeartPulse",
+      "createdAt": "2026-06-01T08:00:00.000Z",
+      "updatedAt": "2026-11-01T08:00:00.000Z"
+    },
+    {
+      "id": "cat_1793537113072_6",
+      "name": "Education & Literature",
+      "color": "#8f733b",
+      "budget": 5000,
+      "icon": "GraduationCap",
+      "createdAt": "2026-06-01T08:00:00.000Z",
+      "updatedAt": "2026-11-01T08:00:00.000Z"
+    },
+    {
+      "id": "cat_1793537113072_7",
+      "name": "Tailoring & Shopping",
+      "color": "#524f4b",
+      "budget": 8000,
+      "icon": "ShoppingBag",
+      "createdAt": "2026-06-01T08:00:00.000Z",
+      "updatedAt": "2026-11-01T08:00:00.000Z"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "exp_sp_202611_01",
+      "title": "Apartment Lease & Society Dues",
+      "amount": 22000,
+      "date": "2026-11-01",
+      "category": "Housing & Estate",
+      "description": "Monthly apartment rent & building corpus maintenance transfer",
+      "paymentMethod": "Bank Transfer",
+      "createdAt": "2026-11-01T09:00:00.000Z",
+      "updatedAt": "2026-11-01T09:00:00.000Z"
+    },
+    {
+      "id": "exp_sp_202611_02",
+      "title": "Whole Foods & Organic Basket",
+      "amount": 4250,
+      "date": "2026-11-01",
+      "category": "Food & Dining",
+      "description": "Cold-pressed oils, sourdough loafs, heirloom grains & fresh greens",
+      "paymentMethod": "Debit Card",
+      "createdAt": "2026-11-01T10:15:00.000Z",
+      "updatedAt": "2026-11-01T10:15:00.000Z"
+    },
+    {
+      "id": "exp_sp_202611_03",
+      "title": "Bodhi Yoga & Wellness Sanctuary",
+      "amount": 3500,
+      "date": "2026-11-01",
+      "category": "Health & Wellness",
+      "description": "Monthly pilates & morning Ashtanga yoga membership",
+      "paymentMethod": "UPI",
+      "createdAt": "2026-11-01T11:30:00.000Z",
+      "updatedAt": "2026-11-01T11:30:00.000Z"
+    },
+    {
+      "id": "exp_sp_202611_04",
+      "title": "Fibre Gigabit Broadband",
+      "amount": 1499,
+      "date": "2026-11-01",
+      "category": "Utilities & Bills",
+      "description": "High-speed symmetric optical fiber internet subscription",
+      "paymentMethod": "UPI",
+      "createdAt": "2026-11-01T12:00:00.000Z",
+      "updatedAt": "2026-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "exp_sp_202611_05",
+      "title": "Transit Pass & Metro Card Reload",
+      "amount": 1800,
+      "date": "2026-11-01",
+      "category": "Travel & Commute",
+      "description": "Monthly city metro rail smartcard reload and commuter pass",
+      "paymentMethod": "UPI",
+      "createdAt": "2026-11-01T12:45:00.000Z",
+      "updatedAt": "2026-11-01T12:45:00.000Z"
+    },
+    {
+      "id": "exp_sp_202610_01",
+      "title": "Apartment Lease & Society Dues",
+      "amount": 22000,
+      "date": "2026-10-01",
+      "category": "Housing & Estate",
+      "description": "Monthly apartment lease payment",
+      "paymentMethod": "Bank Transfer",
+      "createdAt": "2026-10-01T09:00:00.000Z",
+      "updatedAt": "2026-10-01T09:00:00.000Z"
+    },
+    {
+      "id": "exp_sp_202610_02",
+      "title": "Single-Origin Coffee & Roastery",
+      "amount": 1650,
+      "date": "2026-10-06",
+      "category": "Food & Dining",
+      "description": "Estate Arabica micro-lot beans and specialty filter roast",
+      "paymentMethod": "UPI",
+      "createdAt": "2026-10-06T14:20:00.000Z",
+      "updatedAt": "2026-10-06T14:20:00.000Z"
+    },
+    {
+      "id": "exp_sp_202610_03",
+      "title": "Electric & Clean Power Bill",
+      "amount": 2840,
+      "date": "2026-10-10",
+      "category": "Utilities & Bills",
+      "description": "Domestic electricity and solar utility bill",
+      "paymentMethod": "UPI",
+      "createdAt": "2026-10-10T11:00:00.000Z",
+      "updatedAt": "2026-10-10T11:00:00.000Z"
+    },
+    {
+      "id": "exp_sp_202610_04",
+      "title": "Economics & Architecture Reviews",
+      "amount": 1750,
+      "date": "2026-10-15",
+      "category": "Education & Literature",
+      "description": "Quarterly subscription to architectural review & financial journals",
+      "paymentMethod": "Debit Card",
+      "createdAt": "2026-10-15T16:40:00.000Z",
+      "updatedAt": "2026-10-15T16:40:00.000Z"
+    },
+    {
+      "id": "exp_sp_202610_05",
+      "title": "NCPA Autumn Symphony Concert",
+      "amount": 2200,
+      "date": "2026-10-20",
+      "category": "Leisure & Culture",
+      "description": "Philharmonic chamber orchestra season tickets",
+      "paymentMethod": "Debit Card",
+      "createdAt": "2026-10-20T19:30:00.000Z",
+      "updatedAt": "2026-10-20T19:30:00.000Z"
+    },
+    {
+      "id": "exp_sp_202610_06",
+      "title": "Dinner at The Olive Room",
+      "amount": 3420,
+      "date": "2026-10-24",
+      "category": "Food & Dining",
+      "description": "Artisan Mediterranean dinner and heritage wine tasting",
+      "paymentMethod": "Credit Card",
+      "createdAt": "2026-10-24T20:45:00.000Z",
+      "updatedAt": "2026-10-24T20:45:00.000Z"
+    },
+    {
+      "id": "exp_sp_202610_07",
+      "title": "Handcrafted Linen Blazer & Stole",
+      "amount": 6850,
+      "date": "2026-10-28",
+      "category": "Tailoring & Shopping",
+      "description": "Bespoke tailored pure linen blazer and hand-dyed mulberry silk stole",
+      "paymentMethod": "Credit Card",
+      "createdAt": "2026-10-28T17:15:00.000Z",
+      "updatedAt": "2026-10-28T17:15:00.000Z"
+    },
+    {
+      "id": "exp_sp_202609_01",
+      "title": "Apartment Lease & Society Dues",
+      "amount": 22000,
+      "date": "2026-09-01",
+      "category": "Housing & Estate",
+      "description": "Monthly residential rent transfer",
+      "paymentMethod": "Bank Transfer",
+      "createdAt": "2026-09-01T09:00:00.000Z",
+      "updatedAt": "2026-09-01T09:00:00.000Z"
+    },
+    {
+      "id": "exp_sp_202609_02",
+      "title": "Artisanal Stoneware Tableware",
+      "amount": 4600,
+      "date": "2026-09-08",
+      "category": "Tailoring & Shopping",
+      "description": "Handmade ceramic bowls, serving plates and glazed mugs",
+      "paymentMethod": "Debit Card",
+      "createdAt": "2026-09-08T15:30:00.000Z",
+      "updatedAt": "2026-09-08T15:30:00.000Z"
+    },
+    {
+      "id": "exp_sp_202609_03",
+      "title": "Culinary Degustation Dinner",
+      "amount": 4100,
+      "date": "2026-09-14",
+      "category": "Food & Dining",
+      "description": "Seasonal 5-course garden tasting menu",
+      "paymentMethod": "Credit Card",
+      "createdAt": "2026-09-14T21:00:00.000Z",
+      "updatedAt": "2026-09-14T21:00:00.000Z"
+    },
+    {
+      "id": "exp_sp_202609_04",
+      "title": "Rare Books & Philosophy Volumes",
+      "amount": 2450,
+      "date": "2026-09-18",
+      "category": "Education & Literature",
+      "description": "Hardbound classics and modern political economy editions",
+      "paymentMethod": "Cash",
+      "createdAt": "2026-09-18T16:10:00.000Z",
+      "updatedAt": "2026-09-18T16:10:00.000Z"
+    },
+    {
+      "id": "exp_sp_202609_05",
+      "title": "Expressway Tolls & Vehicle Service",
+      "amount": 3900,
+      "date": "2026-09-22",
+      "category": "Travel & Commute",
+      "description": "Synthetic oil change, brake check and fastag tolls",
+      "paymentMethod": "Debit Card",
+      "createdAt": "2026-09-22T12:00:00.000Z",
+      "updatedAt": "2026-09-22T12:00:00.000Z"
+    },
+    {
+      "id": "exp_sp_202609_06",
+      "title": "Dental Cleaning & Consultation",
+      "amount": 2800,
+      "date": "2026-09-28",
+      "category": "Health & Wellness",
+      "description": "Biannual dental hygiene & oral wellness examination",
+      "paymentMethod": "UPI",
+      "createdAt": "2026-09-28T18:00:00.000Z",
+      "updatedAt": "2026-09-28T18:00:00.000Z"
+    },
+    {
+      "id": "exp_sp_202608_01",
+      "title": "Apartment Lease & Society Dues",
+      "amount": 22000,
+      "date": "2026-08-01",
+      "category": "Housing & Estate",
+      "description": "Monthly rent and building upkeep",
+      "paymentMethod": "Bank Transfer",
+      "createdAt": "2026-08-01T09:00:00.000Z",
+      "updatedAt": "2026-08-01T09:00:00.000Z"
+    },
+    {
+      "id": "exp_sp_202608_02",
+      "title": "Municipal Water & Eco Dues",
+      "amount": 1120,
+      "date": "2026-08-10",
+      "category": "Utilities & Bills",
+      "description": "Bi-monthly water tariff and conservation levy",
+      "paymentMethod": "UPI",
+      "createdAt": "2026-08-10T11:45:00.000Z",
+      "updatedAt": "2026-08-10T11:45:00.000Z"
+    },
+    {
+      "id": "exp_sp_202608_03",
+      "title": "Farmer's Market Pantry Basket",
+      "amount": 3600,
+      "date": "2026-08-15",
+      "category": "Food & Dining",
+      "description": "Locally harvested heirloom avocados, nuts and honey",
+      "paymentMethod": "Cash",
+      "createdAt": "2026-08-15T10:00:00.000Z",
+      "updatedAt": "2026-08-15T10:00:00.000Z"
+    },
+    {
+      "id": "exp_sp_202608_04",
+      "title": "Independent Film Festival Pass",
+      "amount": 1800,
+      "date": "2026-08-20",
+      "category": "Leisure & Culture",
+      "description": "Weekend documentary screenings & director discussions",
+      "paymentMethod": "UPI",
+      "createdAt": "2026-08-20T17:15:00.000Z",
+      "updatedAt": "2026-08-20T17:15:00.000Z"
+    },
+    {
+      "id": "exp_sp_202608_05",
+      "title": "Monsoon Heritage Stay & Travel",
+      "amount": 6500,
+      "date": "2026-08-27",
+      "category": "Travel & Commute",
+      "description": "Rainy retreat eco-lodge booking and country transit",
+      "paymentMethod": "Credit Card",
+      "createdAt": "2026-08-27T13:30:00.000Z",
+      "updatedAt": "2026-08-27T13:30:00.000Z"
+    },
+    {
+      "id": "exp_sp_202607_01",
+      "title": "Apartment Lease & Society Dues",
+      "amount": 22000,
+      "date": "2026-07-01",
+      "category": "Housing & Estate",
+      "description": "Monthly apartment rent payment",
+      "paymentMethod": "Bank Transfer",
+      "createdAt": "2026-07-01T09:00:00.000Z",
+      "updatedAt": "2026-07-01T09:00:00.000Z"
+    },
+    {
+      "id": "exp_sp_202607_02",
+      "title": "Artisan Bistro Lunch",
+      "amount": 2150,
+      "date": "2026-07-08",
+      "category": "Food & Dining",
+      "description": "Gourmet salad bowls and fresh cold pressed juices",
+      "paymentMethod": "UPI",
+      "createdAt": "2026-07-08T13:40:00.000Z",
+      "updatedAt": "2026-07-08T13:40:00.000Z"
+    },
+    {
+      "id": "exp_sp_202607_03",
+      "title": "Vegetable-Tanned Leather Portfolio",
+      "amount": 4200,
+      "date": "2026-07-14",
+      "category": "Tailoring & Shopping",
+      "description": "Hand-stitched full grain leather folder and journal",
+      "paymentMethod": "Debit Card",
+      "createdAt": "2026-07-14T16:20:00.000Z",
+      "updatedAt": "2026-07-14T16:20:00.000Z"
+    },
+    {
+      "id": "exp_sp_202607_04",
+      "title": "Coffee Sensory Cupping Workshop",
+      "amount": 2500,
+      "date": "2026-07-19",
+      "category": "Education & Literature",
+      "description": "Speciality coffee origin masterclass and certification",
+      "paymentMethod": "UPI",
+      "createdAt": "2026-07-19T11:00:00.000Z",
+      "updatedAt": "2026-07-19T11:00:00.000Z"
+    },
+    {
+      "id": "exp_sp_202607_05",
+      "title": "Trail Running & Wellness Shoes",
+      "amount": 5499,
+      "date": "2026-07-25",
+      "category": "Health & Wellness",
+      "description": "Ergonomic trail shoes for morning runs and trekking",
+      "paymentMethod": "Credit Card",
+      "createdAt": "2026-07-25T17:50:00.000Z",
+      "updatedAt": "2026-07-25T17:50:00.000Z"
+    },
+    {
+      "id": "exp_sp_202606_01",
+      "title": "Apartment Lease & Society Dues",
+      "amount": 22000,
+      "date": "2026-06-01",
+      "category": "Housing & Estate",
+      "description": "Monthly rent and maintenance remittance",
+      "paymentMethod": "Bank Transfer",
+      "createdAt": "2026-06-01T09:00:00.000Z",
+      "updatedAt": "2026-06-01T09:00:00.000Z"
+    },
+    {
+      "id": "exp_sp_202606_02",
+      "title": "Pantry Restock & Organic Grains",
+      "amount": 4100,
+      "date": "2026-06-12",
+      "category": "Food & Dining",
+      "description": "Cold-milled flours, wild honey, and whole spices",
+      "paymentMethod": "Debit Card",
+      "createdAt": "2026-06-12T11:30:00.000Z",
+      "updatedAt": "2026-06-12T11:30:00.000Z"
+    },
+    {
+      "id": "exp_sp_202606_03",
+      "title": "Executive Intercity Express",
+      "amount": 2400,
+      "date": "2026-06-20",
+      "category": "Travel & Commute",
+      "description": "Express chair car train transit for family visit",
+      "paymentMethod": "UPI",
+      "createdAt": "2026-06-20T08:15:00.000Z",
+      "updatedAt": "2026-06-20T08:15:00.000Z"
+    },
+    {
+      "id": "exp_sp_202606_04",
+      "title": "Summer Classical Chamber Recital",
+      "amount": 2600,
+      "date": "2026-06-28",
+      "category": "Leisure & Culture",
+      "description": "Chamber music string quartet evening passes",
+      "paymentMethod": "Credit Card",
+      "createdAt": "2026-06-28T19:00:00.000Z",
+      "updatedAt": "2026-06-28T19:00:00.000Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "user_sakshi_pawar",
+      "name": "Sakshi Pawar",
+      "email": "sakshipawar@gmail.com",
+      "passwordHash": "$2b$10$x7WCAei682Df9seZecYVyuEk0naLvIVlkKWLrzB.CwJ2c.8dYemiq",
+      "monthlyIncome": 75000,
+      "currencyCode": "INR",
+      "createdAt": "2026-06-01T08:00:00.000Z",
+      "updatedAt": "2026-11-01T08:00:00.000Z"
+    }
+  ]
+}
